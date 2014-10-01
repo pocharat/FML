@@ -190,10 +190,10 @@ public class Loader
         mcp = new MCPDummyContainer(MetadataCollection.from(getClass().getResourceAsStream("/mcpmod.info"), "MCP").getMetadataForId("mcp", null));
         blacklist = new ArrayList();
         blacklist.add("gregtech");
+        blacklist.add("machinemuse");
+        blacklist.add("micdoodle8");
         blacklist.add("reika");
         blacklist.add("redpower");
-        blacklist.add("micdoodle8");
-        blacklist.add("machinemuse");
     }
 
     /**
