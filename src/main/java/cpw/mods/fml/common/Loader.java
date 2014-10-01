@@ -189,11 +189,14 @@ public class Loader
         minecraft = new MinecraftDummyContainer(MC_VERSION);
         mcp = new MCPDummyContainer(MetadataCollection.from(getClass().getResourceAsStream("/mcpmod.info"), "MCP").getMetadataForId("mcp", null));
         blacklist = new ArrayList();
+        blacklist.add("alchemyplusplus");
         blacklist.add("gregtech");
+        blacklist.add("machinemuse");
+        blacklist.add("micdoodle8");
+        blacklist.add("minechem");
+        blacklist.add("particlephysics");
         blacklist.add("reika");
         blacklist.add("redpower");
-        blacklist.add("micdoodle8");
-        blacklist.add("machinemuse");
     }
 
     /**
